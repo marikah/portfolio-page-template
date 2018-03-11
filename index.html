@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+h3 {
+  text-align: center;
+}
+.p1 {
+  color: white;
+  text-align: center;
+  padding: 2px;
+  font-style: normal;
+}
+i {
+  color: black;
+}
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+#navi {
+}
+#about {
+}
+#projects {
+}
+#contact {
+  background-color: grey;
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div id="navi" class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#about">myName</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+<div id="about" class="jumbotron">
+  <div class="container-fluid">
+    <h1>myPortfoliopage</h1>
+    <blockquote class="blockquote-reverse">
+    <p>This is an optimistic, inspiring thought to make your day just a bit lighter.</p><footer>An interesting person</footer>
+    </blockquote>
+  </div>
+</div>
+<div id="projects" class="container-fluid">
+  <h3>Have a peek at my work</h3><br>
+  <div class="row">
+    <div class="col-md-4">
+      <p>Project 1</p>
+      <img src="https://placehold.it/300x400?text=ComingSoon" class="img-responsive" alt="image">
+    </div>
+    <div class="col-md-4">
+      <p>Project 2</p>
+      <img src="https://placehold.it/300x400?text=ComingSoon" class="img-responsive img-circle" alt="image">
+    </div>
+    <div class="col-md-4">
+      <p>Project 3</p>
+      <img src="https://placehold.it/300x400?text=ComingSoon" class="img-responsive" alt="image">
+    </div>
+  </div>
+</div><br><br>
+<div id="contact" class="container-fluid"> <!-- tähän kontaktiosio -->
+  <h3>Contact me<h3><br>
+  <div class="row col-md-3">
+  </div>
+  <div class="row col-md-6">
+  <form>
+    <div class="form-group">
+      <label class="sr-only" for="name">Name</label>
+      <input type="text" class="form-control" id="name" placeholder="Name">
+    </div>
+    <div class="form-group">
+      <label class="sr-only" for="email">Email address</label>
+      <input type="email" class="form-control" id="email" placeholder="Email address">
+    </div>
+    <div class="form-group">
+      <label class="sr-only" for="phone">Phone number</label>
+      <input type="tel" class="form-control" id="phone" placeholder="Phone number">
+    </div>
+    <div class="form-group">
+      <label class="sr-only" for="msg">Message</label>
+      <textarea type="text" class="form-control" id="msg" placeholder="Message"></textarea>
+    </div>
+    <button type="button" class="btn btn-default btn-md">Send</button><br><br>
+  </form>
+  </div>
+  <div class="row col-md-3">
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <div class="media">
+        <div class="media-middle">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Blank_woman_placeholder.svg" class="media-object" width="100px" alt="profile picture">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div class="media-body">
+        <p>This is me...Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <ul>
+        <li><a href="https://www.linkedin.com/in/marika-helttula-9884982b/"><i class="fa fa-linkedin fa-2x"></i></a></li>
+        <li><a href="https://github.com/marikah"><i class="fa fa-github fa-2x"></i></a></li>
+        <li><a href="https://twitter.com/MarikaHelttula"><i class="fa fa-twitter fa-2x"></i></a><li>
+      </ul>
+    </div>
+  </div>
+</div>
+<footer class="container-fluid" style="background-color: black">
+  <br>
+  <p class="p1">All rights reserved.</p>
+  <br><br>
+</footer>
+</body>
+</html>
